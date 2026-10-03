@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.local
+.vercel
+*.log
+.DS_Store
+# never commit client data
+uploads/
+data/
+.localdb/
