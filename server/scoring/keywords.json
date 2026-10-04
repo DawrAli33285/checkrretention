@@ -1,0 +1,1402 @@
+{
+ "version": "2.0.0",
+ "note": "Risk phrases add pressure (severity 1-3 from the legacy risk_level: High=3, Medium=2, Low=1). Protective phrases subtract 1. Legacy risk_score/final_score were on mixed, uncorrelated scales and are kept only for reference. Review every phrase before production; run npm run check:keywords.",
+ "domains": {
+  "financial": {
+   "Still waiting on that raise": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 5,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "They underpay us here": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Not worth the paycheck": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Thinking about freelancing": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Gotta start a side hustle": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "This job doesn't pay the bills": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Can't survive on this salary": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 5,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "No bonuses this year": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "They say 'budget cuts' again": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Rent is more than my paycheck": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "How do people live off this?": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Financial stress is real": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Time to look for a higher paying job": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Tired of living paycheck to paycheck": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "They expect more, pay less": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "No cost of living adjustment": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Tired of being undervalued": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Can't afford to stay here": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Benefits cut again": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 5,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "No merit increase, again": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "They said raises are frozen": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Where's the appreciation?": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "My side gig makes more": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Gotta pick up weekend work": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Not feeling compensated fairly": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "New job, better pay?": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "This raise is a joke": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Why am I still here?": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "paid well": {
+    "polarity": "protective",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 9.45,
+     "final_score": null,
+     "risk_level": null
+    }
+   },
+   "underpaid": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 2.05,
+     "final_score": null,
+     "risk_level": null
+    }
+   }
+  },
+  "schedule": {
+   "Another late night at the office": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Just got off a 12-hour shift": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Can't keep up with the deadlines": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Back-to-back meetings again": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "No time to breathe lately": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Overloaded with work": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Drowning in tasks": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "So much for lunch breaks": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Weekend plans = working again": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Work never ends": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Feeling exhausted from work": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 5,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Too much on my plate": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "I need a break from this chaos": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Just pulled another all-nighter": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Why do I have 3 jobs in 1?": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 5,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Burnout is real": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "This workload is insane": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "Not enough hours in the day": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Endless Zoom calls": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 5,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "I'm not a robot": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Overtime with no extra pay": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 5,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "This isn't sustainable": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "No downtime anymore": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "Feeling overwhelmed at work": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Need better task management": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 5,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Too much micromanagement": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "Unrealistic expectations": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "unpredictable schedule": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 1.06,
+     "final_score": null,
+     "risk_level": null
+    }
+   }
+  },
+  "workLife": {
+   "Missed another family dinner": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Work took over my weekend": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "Wish I had more time with my kids": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "No such thing as work-life balance": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Can't take a break without guilt": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Always working, never living": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "Kids grow up so fast… and I'm not there": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "Need more family time": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Work comes before everything, apparently": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Skipped vacation again": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Wish I had flexibility": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Guilt-tripped for taking PTO": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Remote work saved my sanity": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Thankful for my flexible schedule": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Tired of missing milestones": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 5,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "My job is my life right now": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "They expect us to be always on": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 5,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Just need a day off": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Balance? What's that?": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Sick kid, still had to work": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "No support for parents here": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Wish I could clock out mentally": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Need a life outside of work": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Can't be a parent and an employee": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "They don't understand real life": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Overworked and overstressed": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Home feels like a second office": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 5,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "flexible schedule": {
+    "polarity": "protective",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 8.55,
+     "final_score": null,
+     "risk_level": null
+    }
+   },
+   "work from home": {
+    "polarity": "protective",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 7.33,
+     "final_score": null,
+     "risk_level": null
+    }
+   },
+   "remote work": {
+    "polarity": "protective",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 7.02,
+     "final_score": null,
+     "risk_level": null
+    }
+   },
+   "supportive manager": {
+    "polarity": "protective",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 7.25,
+     "final_score": null,
+     "risk_level": null
+    }
+   },
+   "good balance": {
+    "polarity": "protective",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 8.95,
+     "final_score": null,
+     "risk_level": null
+    }
+   },
+   "healthy boundaries": {
+    "polarity": "protective",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 8.5,
+     "final_score": null,
+     "risk_level": null
+    }
+   },
+   "no overtime": {
+    "polarity": "protective",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 8.77,
+     "final_score": null,
+     "risk_level": null
+    }
+   },
+   "time off": {
+    "polarity": "protective",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 8.42,
+     "final_score": null,
+     "risk_level": null
+    }
+   },
+   "paid leave": {
+    "polarity": "protective",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 8.28,
+     "final_score": null,
+     "risk_level": null
+    }
+   },
+   "mental health support": {
+    "polarity": "protective",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 9.65,
+     "final_score": null,
+     "risk_level": null
+    }
+   },
+   "burned out": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 2.83,
+     "final_score": null,
+     "risk_level": null
+    }
+   }
+  },
+  "communication": {
+   "No one communicates here": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "I found out from Slack… again": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Leadership is out of touch": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "No direction, just vibes": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Wish we had better meetings": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 5,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "No feedback, just criticism": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Our manager is MIA": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Tired of vague goals": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "No one knows what's going on": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Mixed messages from the top": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "We need better communication": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "No team alignment": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "Always in the dark": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Nobody listens here": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Everything is last-minute": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "Leadership needs leadership": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 5,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Talked over again in the meeting": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "We just wing it here": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "No follow-up after meetings": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "I don't feel heard": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "They never ask for input": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Too much red tape": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Communication is one-way": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Poor onboarding experience": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Tired of being left out": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "We need transparency": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Can't get a straight answer": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "Too many silos": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "open dialogue": {
+    "polarity": "protective",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 8.16,
+     "final_score": null,
+     "risk_level": null
+    }
+   },
+   "poor communication": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 3.04,
+     "final_score": null,
+     "risk_level": null
+    }
+   }
+  },
+  "jobSatisfaction": {
+   "Hate Mondays": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "Just here for the check": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Love what I do": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Feeling stuck in my role": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 5,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Another pointless meeting": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "This place is toxic": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "No motivation to log in": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Micromanaged to death": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "My manager doesn't listen": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 6,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "No growth opportunities": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Nothing changes around here": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Why do I even try?": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Burnout setting in": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 7,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Thinking about quitting": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "I dread going in tomorrow": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "Feels like Groundhog Day": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 2,
+     "risk_level": "High Risk"
+    }
+   },
+   "I'm just a cog in the machine": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "This isn't fulfilling anymore": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "Wasting my potential": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "They don't value employees": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 1.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Where's the innovation?": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "Wish I felt challenged": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Lost my drive lately": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Stuck in a dead-end job": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 4.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "Looking for purpose": {
+    "polarity": "risk",
+    "severity": 1,
+    "legacy": {
+     "risk_score": 3.0,
+     "final_score": 8,
+     "risk_level": "Low Risk"
+    }
+   },
+   "This culture is depressing": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   },
+   "Lack of transparency": {
+    "polarity": "risk",
+    "severity": 3,
+    "legacy": {
+     "risk_score": 2.0,
+     "final_score": 3,
+     "risk_level": "High Risk"
+    }
+   },
+   "Not sure I belong here": {
+    "polarity": "risk",
+    "severity": 2,
+    "legacy": {
+     "risk_score": 5.0,
+     "final_score": 4,
+     "risk_level": "Medium Risk"
+    }
+   }
+  }
+ }
+}

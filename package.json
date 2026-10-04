@@ -1,0 +1,51 @@
+{
+  "name": "prognosticare-retention",
+  "version": "2.3.1",
+  "private": true,
+  "description": "PrognostiCare Staff Retention: pre-hire and current-staff retention risk scoring.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c blue,green \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "node --watch scripts/local-server.js",
+    "dev:web": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "npm run build && node scripts/local-server.js --serve-dist",
+    "test": "node --test --test-concurrency=1 tests/*.test.js",
+    "seed:admin": "node scripts/seed-admin.js",
+    "check:keywords": "node scripts/check-keywords.js"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.3",
+    "exceljs": "^4.4.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.544.0",
+    "mongoose": "^8.18.2",
+    "multer": "^2.0.2",
+    "nodemailer": "^10.0.12",
+    "papaparse": "^5.5.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.2.1",
+    "mongodb-memory-server-core": "^11.3.0",
+    "postcss": "^8.5.6",
+    "supertest": "^7.1.4",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.3.6"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
+  }
+}
